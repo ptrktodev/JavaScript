@@ -1,0 +1,9 @@
+/*INTRO */
+
+.introducao {
+    text-align: start;
+    font-size: 3rem;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 5rem 1rem;
+}

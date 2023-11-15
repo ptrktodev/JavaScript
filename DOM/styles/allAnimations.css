@@ -1,0 +1,10 @@
+.produtos,
+.preco,
+.qualidade {
+    opacity: 0;
+    transition: 0.3s ease-in;
+}
+
+.scrollAtivo {
+    opacity: 1;
+}

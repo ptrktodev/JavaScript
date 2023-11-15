@@ -1,5 +1,6 @@
 const key = "04105f3a63399900b37fa84e3ec7168e";
-const url = `https://api.themoviedb.org/3/tv/popular?api_key=${key}`;
+const numberPage = 8;
+const url = `https://api.themoviedb.org/3/tv/popular?api_key=${key}&langauge=en-US&page=${numberPage}`;
 
 fetch(url)
     // Tranforma a requisição em json

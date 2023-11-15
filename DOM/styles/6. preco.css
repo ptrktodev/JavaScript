@@ -1,0 +1,81 @@
+/* preco */
+
+.preco {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    padding: 3rem 0;
+    flex-direction: row-reverse;
+}
+
+.preco-item {
+    flex-grow: 1;
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 1rem;
+    min-width: 200px;
+}
+
+.preco-item h2 {
+    color: #525252;
+    font-size: 1.8rem;
+}
+
+.preco-item h2,
+.preco-item span {
+    text-align: center;
+}
+
+.preco-item span {
+    font-size: 1.8rem;
+}
+
+.preco-item span sup {
+    font-size: 1.1rem;
+    margin-right: 0.2rem;
+}
+
+.preco-item ul li {
+    line-height: 2rem;
+    color: #7c7c7c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preco-item ul li::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: rgb(250, 29, 143);
+    display: block;
+    border-radius: 50%;
+}
+
+.preco-item a {
+    font-size: 1.2rem;
+    border: 4px solid rgb(0, 0, 0);
+    padding: 0.8rem;
+    text-align: center;
+    color: black;
+    transition: 0.5s;
+}
+
+@media (max-width: 720px) {
+    .preco .preco-item:nth-child(3) {
+        order: -2;
+    }
+    .preco .preco-item:nth-child(2) {
+        order: -2;
+    }
+}
+
+@media (max-width: 480px) {
+    .preco .preco-item:nth-child(3) {
+        order: -3;
+    }
+}

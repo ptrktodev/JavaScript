@@ -1,4 +1,4 @@
-/* Em resumo, enquanto o loop for...in pode ser usado para arrays, geralmente é mais apropriado 
+/* Em resumo, enquanto o loop for...in pode ser usado para arrays, geralmente é mais APROPRIADO 
 para objetos, e o loop for...of é mais indicado para iterar sobre os valores de arrays. */
 
 // RECOMENDADO: Utilizando em Objetos:
