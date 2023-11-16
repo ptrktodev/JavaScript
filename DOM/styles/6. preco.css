@@ -32,6 +32,7 @@
 
 .preco-item span {
     font-size: 1.8rem;
+    color: #3f3f3f;
 }
 
 .preco-item span sup {
@@ -62,7 +63,13 @@
     padding: 0.8rem;
     text-align: center;
     color: black;
-    transition: 0.5s;
+    transition: 0.3s;
+}
+
+.preco-item a:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
 
 @media (max-width: 720px) {
